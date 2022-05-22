@@ -59,4 +59,4 @@ if __name__ == "__main__":
 	t.start()
 
 	context = ('server.crt', 'server.key')
-	app.run(host='0.0.0.0', port=8443, debug=True, ssl_context=context)
+	app.run(host='167.71.78.210:8443', port=8443, debug=True, ssl_context=context)
